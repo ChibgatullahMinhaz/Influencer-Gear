@@ -1,3 +1,4 @@
+/* small device */
 @media screen and (max-width: 576px) {
   .featurs_product {
     flex-direction: column;
@@ -20,6 +21,15 @@
   .right_side p{
     min-width: 100%;
   }
+  #collections{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  #collection{
+    grid-template-columns: repeat(1, 1fr);
+    
+}
 }
 
 /* medium device */
@@ -44,4 +54,13 @@
       .right_side p{
         min-width: 100%;
       }
+      #collections{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      #collection{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
 }
