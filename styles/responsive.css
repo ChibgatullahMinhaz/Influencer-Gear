@@ -21,3 +21,27 @@
     min-width: 100%;
   }
 }
+
+/* medium device */
+@media screen and (min-width:578px) and (max-width:992px) {
+    .featurs_product {
+        flex-direction: column;
+      }
+      .left_side {
+        min-width: 100%;
+        padding: 1rem 0;
+      }
+      .left_side img {
+        margin: 0 auto;
+        min-width: 100%;
+      }
+      .right_side {
+        padding: 0;
+      }
+      .right_side h1{
+        font-size: 1.7rem;
+      }
+      .right_side p{
+        min-width: 100%;
+      }
+}
