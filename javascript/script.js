@@ -144,6 +144,7 @@ Logosdata.forEach((logo) => {
     const imageLogo = document.createElement("img");
     imageLogo.classList.add("logo");
     imageLogo.src = logo.image;
+    imageLogo.alt = logo.image.split('/').pop();
     logos.appendChild(imageLogo)
 })
 
