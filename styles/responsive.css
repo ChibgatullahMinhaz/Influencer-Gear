@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+  .featurs_product {
+    flex-direction: column;
+  }
+  .left_side {
+    min-width: 97%;
+    padding: 1rem 0;
+  }
+  .left_side img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  .right_side {
+    padding: 0;
+  }
+  .right_side h1{
+    font-size: 1.7rem;
+  }
+  .right_side p{
+    min-width: 100%;
+  }
+}
