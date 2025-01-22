@@ -50,7 +50,7 @@ const data = [
     {
         image: "../images/setup.png",
         title: "Photoshoot set",
-        amount: "820.40",
+        amount: 820.40,
         ratingPoint: 4.8,
         shifting: "Worldwide shifting",
         status: "Available",
@@ -60,7 +60,7 @@ const data = [
     {
         image: "../images/camera.png",
         title: "Vlogging Camera",
-        amount:" 1800.80",
+        amount: " 1800.80",
         ratingPoint: 4.99,
         shifting: "Worldwide shifting",
         status: "Available",
@@ -70,7 +70,7 @@ const data = [
     {
         image: "../images/single-light.png",
         title: "Green Screen",
-        amount: 25.48,
+        amount: 25.048,
         ratingPoint: 4.99,
         shifting: "Worldwide shifting",
         status: "Available",
@@ -88,7 +88,7 @@ const data = [
     }
 ];
 
-const container = document.getElementById("collection"); // Assuming you have a container div
+const container = document.getElementById("collection");
 
 data.forEach((item) => {
     const card = document.createElement("div");
@@ -109,3 +109,42 @@ data.forEach((item) => {
 
     container.appendChild(card);
 });
+
+// logos section
+const Logosdata = [
+    {
+        image: "../logos/Alibaba.svg"
+    },
+    {
+        image: "../logos/Amazon.svg"
+    },
+    {
+        image: "../logos/Daraz.pk Logo.svg"
+    },
+    {
+        image: "../logos/Ebay.svg"
+    }
+    ,
+    {
+        image: "../logos/Rakuten.svg"
+    }
+    ,
+    {
+        image: "../logos/Walmart.svg"
+    }
+    ,
+    {
+        image: "../logos/Target.svg"
+    }
+];
+const logoContainer = document.getElementById("logos_container");
+const logos = document.createElement("div");
+// logos.classList.add(logos)
+Logosdata.forEach((logo) => {
+    const imageLogo = document.createElement("img");
+    imageLogo.classList.add("logo");
+    imageLogo.src = logo.image;
+    logos.appendChild(imageLogo)
+})
+
+logoContainer.appendChild(logos)

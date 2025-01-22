@@ -18,6 +18,22 @@ main {
   max-width: 90%;
   margin: 4rem auto;
 }
+/* logos area */
+#logos_container{
+    max-width: 80%;
+    margin: auto;
+    border-top: 1px solid #C0CCDA;
+    border-bottom: 1px solid #C0CCDA;
+    padding: 2rem;
+}
+#logos_container div{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1.5rem;
+   flex-wrap: wrap;
+   
+}
 /* collections code */
 #collections{
     margin-bottom: 10rem;
