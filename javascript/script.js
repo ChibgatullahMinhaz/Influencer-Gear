@@ -1,27 +1,87 @@
 const data = [
     {
-        image: "../images/action.png",
-        title: "Hello World",
-        amount: 555,
+        image: "../images/tripod.png",
+        title: "Flex Tripod",
+        amount: 50.48,
         ratingPoint: 4.99,
         shifting: "Worldwide shifting",
         status: "Available",
         protection: "Buyer's protection possible!"
     },
     {
-        image: "../images/airpod.png",
-        title: "Another World",
-        amount: 499,
-        ratingPoint: 4.5,
+        image: "../images/mic.png",
+        title: "microphone",
+        amount: 120.25,
+        ratingPoint: 4.99,
         shifting: "International shipping",
         status: "Out of stock",
         protection: "Limited buyer protection!"
     },
     {
-        image: "../images/camera.png",
-        title: "The Final World",
-        amount: 699,
+        image: "../images/airpod.png",
+        title: "Airbuds",
+        amount: "100.00",
         ratingPoint: 4.8,
+        shifting: "Worldwide shifting",
+        status: "Available",
+        protection: "Full buyer protection!"
+    }
+    ,
+    {
+        image: "../images/Drone.png",
+        title: "Drone",
+        amount: 980.25,
+        ratingPoint: 4.8,
+        shifting: "Worldwide shifting",
+        status: "Available",
+        protection: "Full buyer protection!"
+    }
+    ,
+    {
+        image: "../images/lights.png",
+        title: "Light Setup",
+        amount: "1200.00",
+        ratingPoint: 4.8,
+        shifting: "Worldwide shifting",
+        status: "Available",
+        protection: "Full buyer protection!"
+    }
+    ,
+    {
+        image: "../images/setup.png",
+        title: "Photoshoot set",
+        amount: "820.40",
+        ratingPoint: 4.8,
+        shifting: "Worldwide shifting",
+        status: "Available",
+        protection: "Full buyer protection!"
+    }
+    ,
+    {
+        image: "../images/camera.png",
+        title: "Vlogging Camera",
+        amount:" 1800.80",
+        ratingPoint: 4.99,
+        shifting: "Worldwide shifting",
+        status: "Available",
+        protection: "Full buyer protection!"
+    }
+    ,
+    {
+        image: "../images/single-light.png",
+        title: "Green Screen",
+        amount: 25.48,
+        ratingPoint: 4.99,
+        shifting: "Worldwide shifting",
+        status: "Available",
+        protection: "Full buyer protection!"
+    }
+    ,
+    {
+        image: "../images/action.png",
+        title: "Action Camera",
+        amount: "280.00",
+        ratingPoint: 4.99,
         shifting: "Worldwide shifting",
         status: "Available",
         protection: "Full buyer protection!"
