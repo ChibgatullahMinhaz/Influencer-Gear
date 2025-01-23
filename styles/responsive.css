@@ -6,10 +6,14 @@
   #menu_button{
     display: block;
     font-size: 1.7rem;
-  }
+    border: none;
+    cursor: pointer;
+  }  
   .nav_item{
-    display: none;
+    display:none;
   }
+
+/* products */
   .featurs_product {
     flex-direction: column;
   }
