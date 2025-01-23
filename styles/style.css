@@ -29,10 +29,17 @@ header{
 nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   min-width: 100%;
 }
 #menu_button{
   display: none;
+}
+.brand{
+  font-family: var(--poppins-family);
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #3A3A3A;
 }
 .right_menu{
   display: flex;
@@ -45,6 +52,20 @@ nav{
 }
 .nav_item ul li{
   padding-right:2rem ;
+}
+.nav_item ul li a {
+  font-family: var(--poppins-family);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+#magnifyin{
+  font-size: 1.5rem;
+}
+.add_to_cart{
+  font-size: 1.8rem;
+  color: #3A3A3A;
+align-items: center;
 }
 /* logos area */
 #logos_container{
