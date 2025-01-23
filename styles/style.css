@@ -78,6 +78,7 @@ align-items: center;
 .banner_image{
   background-image: url("../images/Circle\ design.svg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner_title{
   font-family: var(--poppins-family);
