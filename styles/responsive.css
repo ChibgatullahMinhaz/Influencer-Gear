@@ -30,6 +30,15 @@
     grid-template-columns: repeat(1, 1fr);
     
 }
+.col_title{
+  margin-top: 2rem;
+}
+#logos_container div{
+  display: grid;
+ grid-template-columns: repeat(2 , 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
 }
 
 /* medium device */
@@ -58,9 +67,20 @@
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+        
     }
       #collection{
         grid-template-columns: repeat(2, 1fr);
         
+    }
+    #logos_container div{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .col_title{
+      margin-top: 2rem;
     }
 }
