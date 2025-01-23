@@ -13,10 +13,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 main {
   max-width: 90%;
   margin: 4rem auto;
+}
+/* header start */
+header{
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+}
+#menu_button{
+  display: none;
+}
+.right_menu{
+  display: flex;
+  align-items: center;
+}
+.nav_item ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_item ul li{
+  padding-right:2rem ;
 }
 /* logos area */
 #logos_container{
