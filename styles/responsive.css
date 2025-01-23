@@ -1,5 +1,15 @@
 /* small device */
 @media screen and (max-width: 576px) {
+  header{
+    padding-top: 20px;
+  }
+  #menu_button{
+    display: block;
+    font-size: 1.7rem;
+  }
+  .nav_item{
+    display: none;
+  }
   .featurs_product {
     flex-direction: column;
   }
