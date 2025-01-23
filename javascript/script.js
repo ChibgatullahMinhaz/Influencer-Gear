@@ -28,7 +28,7 @@ const data = [
     }
     ,
     {
-        image: "../images/drone.png",
+        image: "../images/drn.png",
         title: "Drone",
         amount: 980.25,
         ratingPoint: 4.8,
